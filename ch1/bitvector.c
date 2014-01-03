@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define CHUNK_TYPE uint32_t
+#define CHUNK_TYPE uint64_t
 #define CHUNK_SIZE sizeof(CHUNK_TYPE)
 #define CHUNK_BITS (CHUNK_SIZE * 8)
 #define MAX 10000000
