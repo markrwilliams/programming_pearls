@@ -1,3 +1,5 @@
+all: bitvector sorter
+
 bitvector: bitvector.c
 	gcc -Wall -Werror -pedantic -std=gnu99 bitvector.c -o bitvector
 
